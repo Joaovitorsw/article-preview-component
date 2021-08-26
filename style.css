@@ -153,4 +153,28 @@ body {
     margin: 10px;
     position: initial;
   }
+  .share {
+    position: relative;
+  }
+  .share-box {
+    border-radius: 15px;
+    max-height: 50px;
+    max-width: 230px;
+    position: absolute;
+    top: 50%;
+    left: 73%;
+  }
+  .share-box:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 12px solid transparent;
+    border-top-color: var(--secondary-color);
+    border-bottom: 0;
+    margin-left: -12px;
+    margin-bottom: -10px;
+  }
 }
