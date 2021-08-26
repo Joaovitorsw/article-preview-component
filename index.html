@@ -20,26 +20,38 @@
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    <h1 class="title">
-      Shift the overall look and feel by adding these wonderful touches to
-      furniture in your home
-    </h1>
-
-    <p class="paragraph">
-      Ever been in a room and felt like something was missing? Perhaps it felt
-      slightly bare and uninviting. I’ve got some simple tips to help you make
-      any room feel complete.
-    </p>
-
-    <div class="redator-content">
-      <h1 class="redator-name">Michelle Appleton</h1>
-      <span class="date">28 Jun 2020</span>
-      <div class="share-box">
-        <span>Share</span>
-        <img src="images/icon-facebook.svg" alt="icon-facebook" />
-        <img src="images/icon-twitter.svg" alt="icon-twitter" />
-        <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
+    <div class="card">
+      <img src="images/drawers.jpg" alt="drawer" class="drawer" />
+      <div class="text-card">
+        <h1 class="title">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="paragraph">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div class="redator-content">
+          <img
+            src="images/avatar-michelle.jpg"
+            alt="avatar-michelle"
+            class="redator-photo"
+          />
+          <div class="redator-info">
+            <h1 class="redator-name">Michelle Appleton</h1>
+            <span class="date">28 Jun 2020</span>
+          </div>
+          <button class="share"></button>
+          <div class="share-box">
+            <span>share</span>
+            <img src="images/icon-facebook.svg" alt="icon-facebook" />
+            <img src="images/icon-twitter.svg" alt="icon-twitter" />
+            <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
+          </div>
+        </div>
       </div>
     </div>
+    <script src="article-preview.js"></script>
   </body>
 </html>
