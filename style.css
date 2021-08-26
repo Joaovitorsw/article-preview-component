@@ -115,3 +115,11 @@ body {
 .share-box img {
   margin: 10px;
 }
+@media screen and (max-width: 310px) {
+  .share-box span {
+    margin-right: 10px;
+  }
+  .share-box img {
+    margin-left: 0px;
+  }
+}
