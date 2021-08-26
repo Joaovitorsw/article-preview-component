@@ -2,5 +2,20 @@
   --primary-color: hsl(217, 19%, 35%);
   --secondary-color: hsl(214, 17%, 51%);
   --tertiary-color: hsl(212, 23%, 69%);
-  --quartenary-color: hsl(210, 46%, 95%);
+  --quaternary-color: hsl(210, 46%, 95%);
+}
+body {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--quaternary-color);
+}
+
+.card {
+  font-family: "Manrope", "sans-serife";
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  max-width: 320px;
 }
