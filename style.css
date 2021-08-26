@@ -82,3 +82,36 @@ body {
   background-size: 50%;
   background-repeat: no-repeat;
 }
+.share.active {
+  background-image: url(images/icon-share\ alternative.svg);
+  background-color: var(--tertiary-color);
+}
+.share-box {
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  max-width: 320px;
+  max-height: 72px;
+  background-color: var(--secondary-color);
+  border-radius: 0px 0px 15px 15px;
+}
+.share-box.active {
+  opacity: 1;
+}
+.share-box span {
+  font-size: 15px;
+  color: var(--tertiary-color);
+  margin-left: 20px;
+  font-family: "Manrope", "sans-serife";
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.share-box img {
+  margin: 10px;
+}
