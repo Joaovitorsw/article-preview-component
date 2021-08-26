@@ -123,3 +123,17 @@ body {
     margin-left: 0px;
   }
 }
+@media screen and (min-width: 750px) {
+  .card {
+    justify-content: center;
+    transform: translateY(50%);
+    flex-direction: row;
+    max-width: 630px;
+    max-height: 350px;
+  }
+  .drawer {
+    max-height: 350px;
+    max-width: 280px;
+    border-radius: 15px 0px 0px 15px;
+  }
+}
